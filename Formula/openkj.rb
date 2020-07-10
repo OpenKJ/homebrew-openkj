@@ -10,6 +10,7 @@ class Openkj < Formula
   license "GPLv3"
   depends_on "qt5"
   depends_on "gstreamer"
+  depends_on "pkg-config"
   # depends_on "cmake" => :build
 
   def install
