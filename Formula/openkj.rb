@@ -21,7 +21,7 @@ class Openkj < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
-    system "qmake"
+    system "qmake", "DEFINES+=BREW_BUILD"
     system "make"
     system "cp", "-R", "OpenKJ/OpenKJ.app", "#{prefix}/"
     # system "cmake", ".", *std_cmake_args
