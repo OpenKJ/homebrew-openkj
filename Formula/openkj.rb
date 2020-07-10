@@ -4,7 +4,7 @@
 class Openkj < Formula
   desc "OpenKJ karaoke hosting software"
   homepage "https://openkj.org"
-  url "https://github.com/OpenKJ/OpenKJ/archive/1.6.7-3.tar.gz"
+  url "https://github.com/OpenKJ/OpenKJ/archive/1.6.7-4.tar.gz"
   version "1.6.7"
   sha256 "99665f921fb717aae1cea6bed5ce54fab52669fb0ed12ea3befe9e4c0595b1e5"
   license "GPLv3"
