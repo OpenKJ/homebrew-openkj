@@ -6,7 +6,7 @@ class Openkj < Formula
   homepage "https://openkj.org"
   url "https://github.com/OpenKJ/OpenKJ/archive/1.6.7-4.tar.gz"
   version "1.6.7"
-  sha256 "99665f921fb717aae1cea6bed5ce54fab52669fb0ed12ea3befe9e4c0595b1e5"
+  sha256 "689a5f08e5877f8eeffd362c5c61b5164f14fab401f8084ff1faafdb9a8e4360"
   license "GPLv3"
   depends_on "qt5"
   depends_on "gstreamer"
