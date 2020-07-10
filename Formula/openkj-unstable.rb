@@ -15,7 +15,8 @@ class OpenkjUnstable < Formula
     # Remove unrecognized options if warned by configure
     system "qmake", "DEFINES+=BREW_BUILD"
     system "make"
-    system "cp", "-R", "OpenKJ/OpenKJ.app", "#{prefix}/"
+    system "mkdir", "#{prefix}/Applications"
+    system "cp", "-R", "OpenKJ/OpenKJ.app", "#{prefix}/Applications/"
     # system "cmake", ".", *std_cmake_args
   end
 
