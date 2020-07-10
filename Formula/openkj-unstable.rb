@@ -17,7 +17,7 @@ class OpenkjUnstable < Formula
     system "make"
     system "mkdir", "#{prefix}/Applications"
     system "cp", "-R", "OpenKJ/OpenKJ.app", "#{prefix}/Applications/"
-    system "ln", "-s", "#{prefix}/Applications/OpenKJ.app", "~/Applications/OpenKJ.app"
+    system "ln", "-s", "#{prefix}/Applications/OpenKJ.app", "~/Applications/"
     # system "cmake", ".", *std_cmake_args
   end
 
